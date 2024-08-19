@@ -1,27 +1,22 @@
-# Help Center API Assignment
+# Help Center Application
 
 ## Instructions
 
 1. **Clone the Repository:**
    ```bash
-   git clone https://github.com/iAmritMalviya/fullstack-assignment
-   cd fullstack-assignment
+   git clone https://github.com/pratikmandge/Help-Center.git
    ```
+   - Project is cloned to your system.
 
 2. **Frontend:**
-   - Create a React app in the `frontend` folder.
-   - Follow the instructions in `frontend.md` to complete the frontend.
+   - `cd frontend`
+   - Install all node_modules `npm i` or `npm install`
+   - Run server `npm run dev`
+   - Now the frontend is started!
 
 3. **Backend:**
-   - Create a Node.js app in the `backend` folder.
-   - Follow the `backend.md` instructions to complete the backend.
-
-4. **Push Your Work:**
-   - Push both the frontend and backend apps to the same repository.
-   - Make sure the repository is public.
-
-5. **Submit Your Work:**
-   - Paste the GitHub repository link in the Google form you received after pushing your code.
-
----
-
+   - `cd backend`
+   - Install all node_modules `npm i` or `npm install`
+   - Import data to the MongoDB database using the command `node seed.js`
+   - Run server `npm run dev` for nodemon or `node index.js`
+   - Now the server is started!
